@@ -17,3 +17,6 @@ app.listen(port)
 
 // log runtime message
 console.log(`Server listening at port ${port}`)
+
+const port = process.env.PORT || DEFAULT_PORT
+app.listen(port)
